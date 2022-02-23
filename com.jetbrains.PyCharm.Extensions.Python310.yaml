@@ -1,0 +1,25 @@
+id: com.jetbrains.PyCharm.Extensions.Python310
+branch: "python-310"
+runtime: com.jetbrains.PyCharm-Professional
+runtime-version: "python-310"
+sdk: org.freedesktop.Sdk//21.08
+build-extension: true
+appstream-compose: false
+build-options: 
+  prefix: /app/extensions/Python310
+  # options from https://gitlab.com/freedesktop-sdk/freedesktop-sdk/-/blob/84be791e409dc2545a618753ecc92cdacf35000b/elements/components/python3.bst#L17
+  config-opts:
+  - --without-ensurepip
+  - --with-system-expat
+  - --with-system-ffi
+  - --enable-loadable-sqlite-extensions
+  - --with-dbmliborder=gdbm
+  - --with-lto
+  - --with-conf-includedir="%{includedir}/%{gcc_triplet}"
+modules:
+  - name: python3.10
+    sources:
+      - type: archive
+        url: https://www.python.org/ftp/python/3.10.2/Python-3.10.2.tgz
+        md5: 67c92270be6701f4a6fed57c4530139b
+

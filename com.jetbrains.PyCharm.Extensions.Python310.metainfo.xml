@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="addon">
+  <id>com.jetbrains.PyCharm.Extensions.Python310</id>
+  <extends>com.jetbrains.PyCharm-Professional</extends>
+  <name>Python 3.10</name>
+  <summary>Extension for PyCharm</summary>
+  <url type="homepage">https://www.python.org/</url>
+  <project_license>PSF License Agreement</project_license>
+  <metadata_license>CC0-1.0</metadata_license>
+  <update_contact>freeseacher+flathub_AT_gmail.com</update_contact>
+  <releases>
+    <release date="2022-01-14" version="3.10.2" />
+  </releases>
+</component>
