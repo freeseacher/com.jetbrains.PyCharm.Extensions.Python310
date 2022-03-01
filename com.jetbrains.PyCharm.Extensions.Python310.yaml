@@ -1,7 +1,6 @@
 id: com.jetbrains.PyCharm.Extensions.Python310
-branch: "python-310"
 runtime: com.jetbrains.PyCharm-Professional
-runtime-version: "python-310"
+runtime-version: "stable"
 sdk: org.freedesktop.Sdk//21.08
 build-extension: true
 appstream-compose: false
