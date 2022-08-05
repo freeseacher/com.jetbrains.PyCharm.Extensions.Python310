@@ -1,7 +1,8 @@
 id: com.jetbrains.PyCharm.Extensions.Python310
 runtime: com.jetbrains.PyCharm-Professional
-runtime-version: "stable"
+runtime-version: stable
 sdk: org.freedesktop.Sdk//21.08
+branch: "21.08"
 build-extension: true
 appstream-compose: false
 build-options: 
@@ -19,6 +20,6 @@ modules:
   - name: python3.10
     sources:
       - type: archive
-        url: https://www.python.org/ftp/python/3.10.2/Python-3.10.2.tgz
-        md5: 67c92270be6701f4a6fed57c4530139b
+        url: https://www.python.org/ftp/python/3.10.6/Python-3.10.6.tgz
+        md5: d76638ca8bf57e44ef0841d2cde557a0
 
